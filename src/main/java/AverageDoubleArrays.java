@@ -1,19 +1,28 @@
+import java.util.Arrays;
+
 public class AverageDoubleArrays {
 
 
 // Complete these methods
 
     public int count(double[] aa) {
-        return 0;
+
+        return aa.length;
     }
 
     public int sum(double[] aa) {
+        int counter = 0;
+        for (double v : aa) {
+            counter += v;
 
-        return 0;
+        }
+
+        return counter;
     }
 
     public int average(double[] aa) {
-        return 0;
+
+        return sum(aa) / count(aa);
     }
 
 }

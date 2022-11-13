@@ -4,13 +4,19 @@ public class AverageDoubleLists {
 
     // write out these too
     public Double count(ArrayList<Double> aa) {
-        return null;
+
+        return (double) aa.size();
     }
     public Double sum(ArrayList<Double> aa) {
-        return null;
+        int counter = 0;
+        for (Double aDouble : aa) {
+            counter += aDouble;
+
+        }
+        return (double) counter;
     }
     public Double average(ArrayList<Double> aa) {
-        return null;
+        return sum(aa) / count(aa);
     }
 
 }
