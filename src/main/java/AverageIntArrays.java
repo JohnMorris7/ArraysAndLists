@@ -16,7 +16,9 @@ public class AverageIntArrays {
     }
 
     public int average(int[] aa) {
-
+        if (sum(aa) == 0 && count(aa) == 0) {
+            return 0;
+        }
         return sum(aa) / count(aa);
     }
 

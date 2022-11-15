@@ -74,7 +74,7 @@ class AverageArraysTest {
     }
     @org.junit.jupiter.api.Test
     void average3() {
-        int[] a = { };
+        int[] a = new int[]{};
         int expected = 0;
         AverageIntArrays obj = new AverageIntArrays();
 

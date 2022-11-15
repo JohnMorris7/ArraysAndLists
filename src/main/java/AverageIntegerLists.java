@@ -16,6 +16,9 @@ public class AverageIntegerLists {
     }
 
     public int average(ArrayList<Integer> aa) {
+        if (count(aa) == 0 && sum(aa) == 0) {
+            return 0;
+        }
         return sum(aa) / count(aa);
     }
 }

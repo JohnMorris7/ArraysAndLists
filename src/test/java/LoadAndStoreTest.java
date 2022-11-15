@@ -18,7 +18,8 @@ class LoadAndStoreTest {
 
     @Test
     void loadIntArrayFromFile() {
-        assertEquals(null, "");
+
+        assertEquals(expected, actual);
     }
 
     @Test

@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class AverageDoubleArrays {
 
 
@@ -23,6 +21,7 @@ public class AverageDoubleArrays {
     public int average(double[] aa) {
 
         return sum(aa) / count(aa);
+
     }
 
 }
